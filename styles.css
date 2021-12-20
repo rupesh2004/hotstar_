@@ -1,0 +1,243 @@
+body{
+    margin-left: 50px;
+    font-family: "Montserrat";
+      text-decoration: none;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family:"Montserrat-Bold";
+
+}
+.container-fluid{
+    padding: 3% 15% 9.5%;
+}
+p{
+  color: #8f8f8f;
+}
+.navbar-brand{
+  margin-top: -150px;
+  font-family: "Ubuntu";
+  font-size: 5.5rem;
+  font-weight: bold;
+}
+.navbar{
+  margin-left: 50px;
+  padding-top: 100px;
+
+}
+.nav-item{
+  padding: 0 18px;
+  padding-bottom: 150px;
+  margin-right: 10PX;
+
+}
+.a{
+  padding-left: 100px;
+  text-decoration: none;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+
+}
+.download-button{
+  margin-left: 20%;
+  margin: 5% 3% 5% 10%;
+}
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  right : 30%;
+
+  position: absolute;
+}
+#features{
+  padding: 7% ;
+  text-align:center;
+  background-color: #FCD8D4;
+  position:  relative;
+  z-index: 1;
+
+}
+.h{
+  text-decoration: none;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  width: 5%;
+  margin-left: -30px;
+
+}
+.b{
+  margin-left: 90px;
+  font-weight: Bold;
+}
+.a{
+  text-align:center;
+}
+.icon{
+  color: #F8485E;
+  text-align: center;
+}
+.ic{
+  margin-left: 90px;
+}
+.icon:hover{
+  color: #28FFBF;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #FA8072;
+  color: #fff;
+}
+h2{
+  font-family: 'Inter-Bold', sans-serif;
+  font-size: 5rem;
+  line-height: 1.5rem;
+}
+.testimonial-image{
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+  text-align: center;
+}
+#press{
+    background-color: #FA8072;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.card-deck{
+
+}
+.i{
+  font-style: normal;
+  color: black;
+  font-weight: bold;
+}
+.j{
+
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #B5EAEA;
+}
+
+.pricing-column {
+  padding: 20px 10px;
+
+}
+.row{
+  padding-left: 15px;
+}
+.card-header{
+  padding-left: 15px;
+  color: #151965;
+  font-style: italic;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 5px;
+    margin: 100%;
+  }
+}
+#cta{
+  background-color: #FFAA4C;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.download{
+  margin-right: 20px;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #F4DFD0;
+}
+.web_d{
+  padding-top: 100px;
+  color: #046582;
+  font-size: 0.9rem;
+  padding-bottom: 5px;
+    text-decoration: none;
+}
+.web_d:hover {
+    color: #CD113B;
+}
+.social-icon {
+  margin: 20px 10px;
+  width: 40px;
+
+}
+.social-icon:hover{
+  color: #892CDC;
+}
+.btn {
+  background: #0ef5bb;
+  background-image: -webkit-linear-gradient(top, #0ef5bb, #2bb87f);
+  background-image: -moz-linear-gradient(top, #0ef5bb, #2bb87f);
+  background-image: -ms-linear-gradient(top, #0ef5bb, #2bb87f);
+  background-image: -o-linear-gradient(top, #0ef5bb, #2bb87f);
+  background-image: linear-gradient(to bottom, #0ef5bb, #2bb87f);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: 055052;
+  font-size: 28px;
+  padding: 18px 30px 18px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0ff7eb;
+  background-image: -webkit-linear-gradient(top, #0ff7eb, #3498db);
+  background-image: -moz-linear-gradient(top, #0ff7eb, #3498db);
+  background-image: -ms-linear-gradient(top, #0ff7eb, #3498db);
+  background-image: -o-linear-gradient(top, #0ff7eb, #3498db);
+  background-image: linear-gradient(to bottom, #0ff7eb, #3498db);
+  text-decoration: none;
+}
+.header {
+  padding: 10px 16px;
+  color: #f1f1f1;
+  position: fixed;
+   top: 0;
+   width: 100%;
+   padding-top: 10px;
+}
+.nn{
+  text-align: right;
+
+}
+#navbarSupportedContent{
+        padding-left: 500px;
+}
